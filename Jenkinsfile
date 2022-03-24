@@ -12,7 +12,7 @@ pipeline {
         {
             steps 
             {
-                echo "Hello : ${params.NAME}"
+                echo "Name : ${params.NAME}"
                 echo "Job Experience : ${params.EXPE}"
                 echo "Choose Gender : ${params.GENDER}"
             }
